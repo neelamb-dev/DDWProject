@@ -1,0 +1,635 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+/* start of header content */
+/* .header{ */
+    /* background-image: url(images/paragliding\ image.jpg); */
+    /* height: 630px; */
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    
+.navbar_button{display: none;} 
+
+
+.navbar h1 a{
+    font-size: x-large;
+}
+
+@media screen and (max-width:700px){
+    .navbar_button{
+        display: block;
+        padding: 20px;
+    }
+    .navbar_menu{
+        display: none;
+    }
+
+    .media{
+        display: flex;
+        flex-direction: column;
+align-items: center;    }
+
+.media-member{
+    margin-top: 20px;
+}
+
+.community, .latest-places, .training-info, .review{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.community-content{
+    width: 80% !important;
+    margin: auto;
+}
+.popular-post, .training-box, .places{
+    width: 80% !important;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.review{
+    position: relative;
+}
+.review_text{
+    width: 90% !important;
+    margin:auto;
+    margin-top: 125px;
+    /* position: absolute; */
+    /* top: 50px; */
+}
+.review_image{
+    /* width: 50% !important; */
+    position: absolute;
+    top: 15px;
+    left:25%;
+    margin:auto;
+}
+
+
+}
+
+
+.navbar{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1 a{
+    padding: 20px 30px 0px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    color: navy;
+}
+.paraglidingClip{
+    margin: auto;
+    width: 80%;    
+}
+
+.paraglidingClip video{
+    height: 100%;
+    width: 100%;
+}
+.search-bar{
+    width:50%;
+    margin:auto;
+}
+.search-bar-bar input{
+  width: 70%;
+  padding: 15px;
+  border-radius: 30px;
+}
+input[type="submit"],.submit-button{
+    /* width:15%; */
+    height: 40px;
+    padding: 15px;
+    color: white;
+    border-radius: 10px !important;
+    background-color: #E74C3C ;
+    border:none;
+    
+}
+.media{
+    background-image: url(images/paragliding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+.media-member{
+    width:300px;
+    border-radius: 20px;
+    border-width: 3px;
+    
+}
+.media-member-img{
+    width: 310px;
+    border-radius: 20px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.media-member-img img{
+    height: 100%;
+    width: 100%;
+}
+.para p{
+    color:whitesmoke;
+    font-size: 15px;
+text-align: justify;
+padding-left: 15px;
+margin-bottom: 10px;
+}
+    
+    
+
+.booking-form{
+    margin: 20px;
+    /* padding: 10px; */
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border: gray 3px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-image: linear-gradient(rgba(0,0,255,50%), rgba(0,0,255,10%));
+}
+
+.booking-form form{
+    color: white;
+    font-weight:normal;
+    font-size: 16px;
+}
+
+.booking-form input[type="date"]{
+    display: block;
+    border-radius: 10px;
+    height: 25px;
+    width: 150px;
+}
+.book_button{
+    height: 30px;
+    border-radius: 10px;
+    padding:0px;
+    width: 80px;
+}
+
+.subscribe{
+    margin-left: 60px;
+    width: fit-content;
+    padding:10px;
+}
+
+.booking_label, .book-radio{
+    padding-left: 10px;
+}
+
+
+.questions h1{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+.main-faq{
+    background-image: url(images/paragliding.jpg);
+    /* height: 630px; */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center;
+}
+.main-faq h1{
+    color: navy;
+    padding-top: 15px;
+}
+.faq-container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    padding:25px;
+}
+.faq-qtn{
+    /* width: 49%; */
+    /* height: 200px; */
+    padding: 25px ;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255,255,40%);
+    color: navy;
+
+}
+
+
+.faq-qtn p{
+    padding-bottom: 25px;
+    padding-left: 35px;
+}
+
+.faq-qtn p:hover{
+    font-weight: bold;
+}
+
+/* .....Member area .....*/
+
+form .login-icon{
+    border:3px solid gray;
+margin: auto;
+margin-top: 10px;
+padding-top: 10px;    
+}
+/* input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0 ;
+    display: inline-block;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+
+} */
+button{
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    /* width: 50%; */
+    align-items: center;
+}
+button:hover{
+    opacity: 0.7;
+}
+.cancelbtn{
+    width: auto;
+    padding: 10px 17px;
+    background-color: #f44336;
+}
+.login-icon{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    height: 45%;
+    width: 50%;
+    align-items: center;
+}
+.login-icon loginicon{
+    width: 20%;
+    border-radius:20%;
+    height: 45%;
+    width: 50%;
+}
+.login_area{
+    padding: 10%;
+    display: block;
+}
+span.pass{
+    float: right;
+    padding-top: 16px;
+}
+/* @media screen and (max-width: 310px){
+    span.pass{
+        display: block;
+        float: none;
+    }
+    .cancelbtn{
+        width: 100%;
+    }
+} */
+    
+input[type="radio"],input[type="file"]
+{
+    margin-left: 50px;
+}
+
+input[type="text"], input[type="password"], input[type="date"],input[type="email"]{
+    display: block;
+    height: 45px;
+    width: 90%;
+    margin: auto;
+    padding-left: 20px;
+}
+.terms{
+text-align: center;
+
+}
+
+label{
+padding-left: 40px;
+}
+/* .gender{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* input[type="email"]{
+    height: 42px;
+} */
+
+.signup{
+    margin-top: 20px;
+    width: 60%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.signup_button{
+    display: inline-block;
+    border-radius: 10px;
+}
+
+
+/* places page */
+.latest-places{
+    /* height: 500px; */
+    width: 100%;
+    background-color: azure;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+
+}
+
+.places{
+    width: 40%;
+    height: auto;
+    background-color: bisque;
+}
+
+.places-title{
+    text-align: center;
+    padding: 10px;
+}
+
+.places_img{
+    width: 80%;
+    height: 200px;
+    overflow: hidden;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.places_img img{
+    width: 100%;
+    height: 100%;
+}
+.places_img img:hover{
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+.places_desc{
+    padding: 25px;
+}
+
+.places_desc li{
+    margin-left: 80px;
+    color: blue;
+    font-size: 20px;
+
+}
+
+
+/* review page */
+
+.container{
+    width: 90%;
+    background-color: burlywood;
+    margin:auto;
+    color: navy;
+    border-radius: 10px;
+    text-align: center;
+
+    
+
+}
+
+
+
+.review-container h3{
+    font-size: x-large !important;
+   text-align: center;
+   padding-top: 10px;
+}
+
+.review{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.review_image{
+    height: 150px;
+    width: 150px;
+    background-color: crimson;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.review_image img{
+    width: 100%;
+    height: 100%;
+}
+
+.review_text{
+    width: 60%;
+    background-color: cornsilk;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,20%);
+}
+/* training contents */
+.training-info{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px ;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+
+.training-info h2{
+    font-size: larger;
+    text-align: center;
+    color:blueviolet;
+}
+
+.training-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px ;
+
+}
+.training-box{
+    width: 40%;
+    padding: 20px 0 20px 30px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    margin-top: 15px;
+    border-radius: 20px;
+
+}
+.training-box h3{
+    text-align: center;
+    color: #2E86C1 ;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.traning-box-sub{
+  
+    padding: 20px;
+    background-color:#F5EEF8 ;
+    color: darkcyan;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    align-items: center;
+    
+}
+/* community content */
+.community{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+.community-content{
+    width:60%;
+   box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+   padding: 20px;
+   text-align: center;
+}
+.community-content h1{
+    color: navy;
+   font-size: large;
+   font-variant: small-caps; 
+}
+
+.community-main{
+    color: navy;
+    text-align: justify;
+    border:2px solid gray;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.community-main p{
+    margin-bottom:5px;
+}
+.community-main a, .popular-post a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1C2833;
+}
+.community-main a:hover, .popular-post a:hover{
+    color: navy;
+}
+
+.popular-post{
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    width:30%;
+    border-radius: 10px;
+    padding: 10px;
+    color: navy;
+}
+.popular-post h2{
+    text-decoration: underline;
+}
+
+.popular-post ol{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.popular-post a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* footer  */
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-around;
+    background-color: darkgrey;
+    color: white;
+    height: 50px;
+    align-items: center;
+}
+.footer-left{
+    width: 30%;
+}
+.footer-right{
+    width: 30%;
+text-align: right;}
+
+.footer-right a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.sitemap{
+    padding-left: 50px;
+}
+
+.sitemap h2{
+    font-size: x-large;
+}
+
+.sitemap ul{
+    flex-direction: column;
+    font-size: x-large;
+    padding-left: 30px;
+}
+
+.sitemap li{
+    padding-top: 2px;
+    margin-top: 1px;
+}
+
+.sitemap>ul>li>a{
+    color: orangered;
+}
